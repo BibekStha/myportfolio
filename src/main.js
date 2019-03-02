@@ -7,6 +7,7 @@ import store from './store'
 import './registerServiceWorker'
 import './plugins/vuelidate'
 import './plugins/vue2-filters'
+import './plugins/vue-typed'
 
 
 import { version } from '../package.json'
