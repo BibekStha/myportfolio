@@ -6,15 +6,15 @@
       </v-flex>
       <v-layout column justify-center id="about-section">
         <v-layout id="center-img-container">
-          <!-- <v-img :src="'/img/Bibek.8ced89eb.png'" :lazy-src="'/img/Bibek.8ced89eb.png'" id="center-img"></v-img> -->
           <img src="/img/Bibek.8ced89eb.png" id="center-img">
         </v-layout>
         <v-layout row justify-center align-center>
           <v-flex xs3>
-            <a href="#">
+            <webdev/>
+            <!-- <a href="#">
               <img src="../assets/grad-certificate.svg" alt="Grad Certificate Logo" width="30px" height="auto">
               <span class="green--text">How did I become a Web Developloer?</span>
-            </a>
+            </a> -->
           </v-flex>
         </v-layout>
         <v-layout row align-center>
@@ -39,10 +39,10 @@
             </a>
           </v-flex>
           <v-flex xs2 offset-xs6>
-            <router-link to="/resume">
+            <a href="Resume.pdf">
               <img src="../assets/resume.svg" alt="Grad Certificate Logo" width="30px" height="auto">
               <span class="light-blue--text">Download my resume</span>
-            </router-link>
+            </a>
           </v-flex>
         </v-layout>
         <v-layout row align-center>
@@ -72,11 +72,13 @@
 </template>
 
 <script>
-// @ is an alias to /src
+import { webdev } from "./WebDev.vue"
 
 export default {
   name: 'home',
-  components: {}
+  components: {
+    webdev
+  }
 }
 </script>
 

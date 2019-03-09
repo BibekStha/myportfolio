@@ -8,7 +8,6 @@ import './registerServiceWorker'
 import './plugins/vuelidate'
 import './plugins/vue2-filters'
 import './plugins/vue-typed'
-import './plugins/vue-pdf'
 
 
 import { version } from '../package.json'
