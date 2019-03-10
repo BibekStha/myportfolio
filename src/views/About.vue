@@ -30,12 +30,11 @@
           </v-flex>
         </v-layout>
         <v-layout row align-center>
-          <v-flex xs2 offset-xs3>
+          <social></social>
+          <!-- <v-flex xs2 offset-xs3>
             <a href="#">
-              <img src="../assets/networking.svg" alt="Grad Certificate Logo" width="30px" height="auto">
-              <span class="deep-orange--text">Check me on social media</span>
             </a>
-          </v-flex>
+          </v-flex> -->
           <v-flex xs2 offset-xs2>
             <a href="#">
               <img src="../assets/project.svg" alt="Grad Certificate Logo" width="30px" height="auto">
@@ -57,7 +56,7 @@
 
 <script>
 import Webdev from "../components/WebDev.vue"
-import Myed from "../components/MyEd.vue"
+import Social from "../components/Social.vue"
 import Myedtime from "../components/MyEdTimeline.vue"
 import Hireme from "../components/HireMe.vue"
 
@@ -65,7 +64,7 @@ export default {
   name: 'home',
   components: {
     Webdev,
-    Myed,
+    Social,
     Myedtime,
     Hireme
   }
@@ -94,5 +93,8 @@ export default {
 #ps {
   font-family: 'Just Me Again Down Here', cursive;
   font-size: 20px;
+}
+.v-dialog__content--active {
+  background-color: rgba(0, 0, 0, .75);
 }
 </style>

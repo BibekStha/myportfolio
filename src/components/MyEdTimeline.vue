@@ -8,7 +8,7 @@
           </a>
         </template>
         <v-card>
-          <v-toolbar flat floating fixed align-self-end>
+          <v-toolbar flat floating fixed>
             <v-btn icon light @click="dialog = false">
               <v-icon>close</v-icon>
             </v-btn>

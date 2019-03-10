@@ -1,15 +1,15 @@
 <template>
   <v-flex xs2 offset-xs2>
     <v-layout row justify-center>
-      <v-dialog v-model="dialog" fullscreen hide-overlay transition="scale-transition" origin="center center">
+      <v-dialog v-model="dialog" hide-overlay transition="scale-transition" origin="center center">
         <template v-slot:activator="{ on }">
           <a v-link="" v-on="on">
-            <img src="../assets/temperature.svg" alt="Degree Logo" width="30px" height="auto">
-            <span class="orange--text">My education</span>
+            <img src="../assets/networking.svg" alt="Grad Certificate Logo" width="30px" height="auto">
+            <span class="deep-orange--text">Check me on social media</span>
           </a>
         </template>
         <v-card>
-          <v-toolbar flat floating fixed align-self-end>
+          <v-toolbar flat floating class="d-flex">
             <v-btn icon light @click="dialog = false">
               <v-icon>close</v-icon>
             </v-btn>
@@ -18,7 +18,7 @@
             <v-layout>
               <v-flex>
                 <v-list>
-                  <h1 class="font-weight-thin blue--text">Education</h1>
+                  <h1 class="font-weight-thin green--text">Social links</h1>
                   <v-flex v-for="course in courses" :key="course.title" px-5>
                     <v-layout row justify-space-between>
                       <v-flex font-weight-medium text-xs-left px-5>{{ course.title }}</v-flex>
