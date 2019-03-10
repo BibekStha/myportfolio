@@ -10419,6 +10419,13 @@ thunky@^1.0.2:
   resolved "https://registry.yarnpkg.com/thunky/-/thunky-1.0.3.tgz#f5df732453407b09191dae73e2a8cc73f381a826"
   integrity sha512-YwT8pjmNcAXBZqrubu22P4FYsh2D4dxRmnWBOL8Jk8bUcRUtc5326kx32tuTmFDAZtLOGEVNl8POAR8j896Iow==
 
+timeline-vuejs@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/timeline-vuejs/-/timeline-vuejs-1.0.3.tgz#086b480bb1f70c0eacb193d255e3ece3c1581df5"
+  integrity sha512-G+ZYoSkmrmiC1Ed66wHej0W2hW2p2neWOiF2anrqwhPvbszptm2KuMxWetl4JKf3lL8+XQrK+Vjo9qYBbWCO5A==
+  dependencies:
+    vue "^2.5.17"
+
 timers-browserify@^2.0.4:
   version "2.0.10"
   resolved "https://registry.yarnpkg.com/timers-browserify/-/timers-browserify-2.0.10.tgz#1d28e3d2aadf1d5a5996c4e9f95601cd053480ae"
@@ -10858,6 +10865,11 @@ void-elements@^2.0.1:
   resolved "https://registry.yarnpkg.com/void-elements/-/void-elements-2.0.1.tgz#c066afb582bb1cb4128d60ea92392e94d5e9dbec"
   integrity sha1-wGavtYK7HLQSjWDqkjkulNXp2+w=
 
+vue-awesome@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/vue-awesome/-/vue-awesome-3.4.0.tgz#4391edc847ed19da54b50567b0fc9ddaec01d670"
+  integrity sha512-DzNdHa0bBfXrgtyMTk5d1jW2DqeKsXYL8AsIl/E1gTLTLz9LiOj7V1RnZRAMtx58uTwmvBxdIMntxzZGOfxgpw==
+
 vue-cli-plugin-vuetify@^0.4.6:
   version "0.4.6"
   resolved "https://registry.yarnpkg.com/vue-cli-plugin-vuetify/-/vue-cli-plugin-vuetify-0.4.6.tgz#91c4534d17bc04bbd6f41eacdb6ff49be0f59f2b"
@@ -10972,7 +10984,7 @@ vue2-filters@^0.5.0:
   resolved "https://registry.yarnpkg.com/vue2-filters/-/vue2-filters-0.5.0.tgz#ffbb581bfa82b0595ed0d4ea0f2f93ab3303b9e8"
   integrity sha512-1vumy9wkYO+UkDYDzC5lrpRezLNvzJV88m6wHwBVo/GrhbAIne4+3bI4wtpa1xsh0wPam8U9R1uL/HthAUvVXQ==
 
-vue@^2.6.6:
+vue@^2.5.17, vue@^2.6.6:
   version "2.6.8"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.8.tgz#f21cbc536bfc14f7d1d792a137bb12f69e60ea91"
   integrity sha512-+vp9lEC2Kt3yom673pzg1J7T1NVGuGzO9j8Wxno+rQN2WYVBX2pyo/RGQ3fXCLh2Pk76Skw/laAPCuBuEQ4diw==

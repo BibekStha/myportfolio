@@ -2,28 +2,17 @@
   <v-container class="about" fill-height>
     <v-layout column>
       <v-flex shrink mb-2>
-        <p class="light-blue--text text--lighten-2">Bibek Shrestha</p>
+        <p class="light-blue--text text--lighten-2 font-weight-light">Bibek Shrestha</p>
       </v-flex>
       <v-layout column justify-center id="about-section">
         <v-layout id="center-img-container">
-          <img src="/img/Bibek.8ced89eb.png" id="center-img">
+          <img src="../assets/Bibek.png" id="center-img">
         </v-layout>
         <v-layout row justify-center align-center>
-          <v-flex xs3>
-            <webdev/>
-            <!-- <a href="#">
-              <img src="../assets/grad-certificate.svg" alt="Grad Certificate Logo" width="30px" height="auto">
-              <span class="green--text">How did I become a Web Developloer?</span>
-            </a> -->
-          </v-flex>
+          <webdev></webdev>
         </v-layout>
         <v-layout row align-center>
-          <v-flex xs2 offset-xs2>
-            <a href="#">
-              <img src="../assets/temperature.svg" alt="Degree Logo" width="30px" height="auto">
-              <span class="orange--text">Degrees I have</span>
-            </a>
-          </v-flex>
+          <myedtime></myedtime>
           <v-flex xs2 offset-xs4>
             <a href="#">
               <img src="../assets/learning.svg" alt="Grad Certificate Logo" width="30px" height="auto">
@@ -32,12 +21,7 @@
           </v-flex>
         </v-layout>
         <v-layout row align-center>
-          <v-flex xs2 offset-xs1>
-            <a href="#">
-              <img src="../assets/contact.svg" alt="Grad Certificate Logo" width="30px" height="auto">
-              <span class="indigo--text">Want to work with me?</span>
-            </a>
-          </v-flex>
+          <hireme></hireme>
           <v-flex xs2 offset-xs6>
             <a href="Resume.pdf">
               <img src="../assets/resume.svg" alt="Grad Certificate Logo" width="30px" height="auto">
@@ -62,7 +46,7 @@
       </v-layout>
       <v-flex shrink>
         <v-flex xs3>
-          <v-card dark color="blue" id="ps">
+          <v-card dark flat color="blue" id="ps">
             <v-card-text>P.S. I'm obsessed with BLUE!!!</v-card-text>
           </v-card>
         </v-flex>
@@ -72,12 +56,18 @@
 </template>
 
 <script>
-import { webdev } from "./WebDev.vue"
+import Webdev from "../components/WebDev.vue"
+import Myed from "../components/MyEd.vue"
+import Myedtime from "../components/MyEdTimeline.vue"
+import Hireme from "../components/HireMe.vue"
 
 export default {
   name: 'home',
   components: {
-    webdev
+    Webdev,
+    Myed,
+    Myedtime,
+    Hireme
   }
 }
 </script>

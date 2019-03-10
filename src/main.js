@@ -8,6 +8,7 @@ import './registerServiceWorker'
 import './plugins/vuelidate'
 import './plugins/vue2-filters'
 import './plugins/vue-typed'
+import 'timeline-vuejs/dist/timeline-vuejs.css'
 
 
 import { version } from '../package.json'

@@ -47,6 +47,8 @@
     "sass-loader": "^7.1.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
+    "timeline-vuejs": "^1.0.3",
+    "vue-awesome": "^3.4.0",
     "vue-cli-plugin-vuetify": "^0.4.6",
     "vue-pdf": "^4.0.6",
     "vue-resize-sensor": "^2.0.0",
