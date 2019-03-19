@@ -10979,10 +10979,10 @@ vue-typed-js@^0.1.2:
   dependencies:
     typed.js "git+https://github.com/mattboldt/typed.js.git"
 
-vue2-filters@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/vue2-filters/-/vue2-filters-0.5.0.tgz#ffbb581bfa82b0595ed0d4ea0f2f93ab3303b9e8"
-  integrity sha512-1vumy9wkYO+UkDYDzC5lrpRezLNvzJV88m6wHwBVo/GrhbAIne4+3bI4wtpa1xsh0wPam8U9R1uL/HthAUvVXQ==
+vue2-filters@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/vue2-filters/-/vue2-filters-0.5.1.tgz#b1e487625fc9fc76e4bbc223271fc4470797c90a"
+  integrity sha512-jUaFGsMooTfZDJTSQHOkGrzSyJvJ/dD5MjKCHDwAfjJgwkbwALFZYnSZHjovNbPzh0pqcf/5LVHJ3eLUr/I1sg==
 
 vue@^2.5.17, vue@^2.6.6:
   version "2.6.8"
