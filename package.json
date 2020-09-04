@@ -39,7 +39,7 @@
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.13.1",
     "pdfjs-dist": "^2.0.943",
     "pug": "^2.0.3",
     "pug-plain-loader": "^1.0.0",
